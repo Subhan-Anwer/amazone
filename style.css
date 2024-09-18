@@ -272,12 +272,52 @@ body {
     width: 100%;
     height: 600px;
     position: absolute  ;
-    background-image: url("assets/hero-2.jpg");
+    background-image: url("assets/hero-3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    z-index: -1;
 }
 
+.card-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 420px;
+    background-color: white;
+    color: black;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    color: #000;
+    margin: 20px 0 0 20px;
+}
+
+.card a {
+    color: #007185;
+    margin: 0 0 10px 20px;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.card a:hover {
+    color: #ee8c0b;
+}
+
+.img-text {
+    font-size: 0.79rem;
+    opacity: 95%;
+    color: black;
+    margin: 5px 0 0 20px;
+}
 
 /* ===============  Footer  =============== */
 
