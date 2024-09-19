@@ -319,6 +319,42 @@ body {
     margin: 5px 0 0 20px;
 }
 
+.small-card-row {
+    display: flex;
+    flex-direction: column;
+    width: 1343px;
+    height: 265px;
+    background-color: #fff;
+    margin: 0 0 20px 20px;
+}
+
+.small-card-heading {
+    display: flex;
+    margin: 20px 20px 0 20px;
+}
+
+.card-heading {
+    font-size: 1.35rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.see-more {
+    color: #007185;
+    margin: 5px 0 0 15px;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.small-images {
+    display: flex;
+    overflow: hidden;
+    gap: 12px;
+    margin: 5px 20px 0 30px;
+}
+
+
+
 /* ===============  Footer  =============== */
 
 .footer {
